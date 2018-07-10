@@ -1,0 +1,218 @@
+.App {
+  height: 100%;
+  min-height: 400px;
+  text-align: center;
+}
+
+.App-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-heading {
+  background-color: #222;
+  color: #f8f8f8;
+  font-size: 4vh;
+  flex: 1;
+}
+
+.App-react {
+  color: #00d8ff;
+  text-decoration: overline underline;
+}
+
+.App-logo {
+  max-height: 30vh;
+  max-width: 30vh;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #222;
+  font-size: 2vh;
+  line-height: 1.5;
+}
+
+.App-instructions {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.App-instructions p,
+.benchmark p {
+  width: 70%;
+  margin-bottom: 0px;
+  /* padding-bottom: 1em; */
+}
+
+.benchmark {
+  padding-top: 50px;
+}
+
+.benchmark p {
+  margin: 1em auto;
+}
+
+.App-instructions code {
+  background-color: #222;
+  color: #00d8ff;
+  padding: 0.2em 0.3em;
+  border-radius: 0.2em;
+}
+
+hr {
+  border: 1px solid #555;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.benchmark-scratchpad {
+  width: 93vw;
+  overflow: auto;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.benchmark-scratchpad div {
+  font-size: 0.8em;
+  padding: 0.2em 0.3em;
+  display: inline-block;
+}
+
+.padding5 {
+  padding-left: 5px;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #898c8f;
+}
+
+footer a {
+  color: #898c8f;
+  text-decoration: none;
+}
+
+/*=======================*/
+fill:hover,
+.fill:focus {
+  -webkit-box-shadow: inset 0 0 0 2em var(--hover);
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+.pulse:hover,
+.pulse:focus {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+  -webkit-box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+.close:hover,
+.close:focus {
+  -webkit-box-shadow: inset -3.5em 0 0 0 var(--hover),
+      inset 3.5em 0 0 0 var(--hover);
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+.raise:hover,
+.raise:focus {
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+
+.up:hover,
+.up:focus {
+  -webkit-box-shadow: inset 0 -3.25em 0 0 var(--hover);
+  box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.slide:hover,
+.slide:focus {
+  -webkit-box-shadow: inset 6.5em 0 0 0 var(--hover);
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+
+.offset {
+  -webkit-box-shadow: 0.3em 0.3em 0 0 var(--color),
+  inset 0.3em 0.3em 0 0 var(--color);
+  box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.offset:hover,
+.offset:focus {
+  -webkit-box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+  box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}
+
+.fill {
+  --color: #a972cb;
+  --hover: #cb72aa;
+}
+
+.pulse {
+  --color: #0080ff;
+  --hover: #ff0000;
+}
+
+.close {
+  --color: #ff7f82;
+  --hover: #ffdc7f;
+}
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+
+.up {
+  --color: #e4cb58;
+  --hover: #94e458;
+}
+
+.slide {
+  --color: #8fc866;
+  --hover: #66c887;
+}
+
+.offset {
+  --color: #19bc8b;
+  --hover: #1973bc;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+button:hover,
+button:focus {
+  border-color: var(--hover);
+}
+
+button {
+  background: none;
+  border: 1px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.1em;
+  padding: 0.2em 0.4em;
+  cursor: pointer;
+}
