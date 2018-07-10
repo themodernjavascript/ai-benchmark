@@ -108,6 +108,12 @@ footer a {
   text-decoration: none;
 }
 
+.version {
+  color: #898c8f;
+  font-size: 0.3em;
+  margin-left: 6px;
+}
+
 /*=======================*/
 fill:hover,
 .fill:focus {

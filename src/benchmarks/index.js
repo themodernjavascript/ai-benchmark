@@ -28,6 +28,7 @@ class Benchmarks extends React.Component {
             <header>
               <Typography variant="display3" gutterBottom>
                 AI Benchmark
+                <span className="version">beta</span>
               </Typography>
             </header>
           </Grid>
