@@ -97,10 +97,10 @@ class VanillaBenchmark extends Component {
             Nodes #: <code ref="currentCount" />
           </p>
           <p>
-            Rendered time: <span ref="time" />
+            Rendered times: <span ref="time" />
           </p>
           <p>
-            Average rendered time: <code ref="avgTime" />
+            Average rendered times: <code ref="avgTime" />
           </p>
         </div>
         <div className="row benchmark-scratchpad" ref="scratchpad" />

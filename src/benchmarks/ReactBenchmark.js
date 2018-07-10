@@ -117,10 +117,10 @@ class ReactBenchmark extends React.Component {
             Nodes #: <code>{nodes.length}</code>
           </p>
           <p>
-            Rendered time: <span ref="time" />
+            Rendered times: <span ref="time" />
           </p>
           <p>
-            Average rendered time: <code>{this.averageTime}ms</code>
+            Average rendered times: <code>{this.averageTime}ms</code>
           </p>
         </div>
         <div className="row benchmark-scratchpad">

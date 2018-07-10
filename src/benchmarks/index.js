@@ -27,7 +27,7 @@ class Benchmarks extends React.Component {
           <Grid item xs={12} sm={6}>
             <header>
               <Typography variant="display3" gutterBottom>
-                AI Benchmarks
+                AI Benchmark
               </Typography>
             </header>
           </Grid>
@@ -54,11 +54,11 @@ class Benchmarks extends React.Component {
               <Paper className={classes.root} elevation={1}>
                 <Grid item xs={12}>
                   <Typography variant="display2" gutterBottom style={{paddingBottom: 10}}>
-                    Preact
+                    React
                   </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                  <PreactBenchmark />
+                  <ReactBenchmark />
                 </Grid>
               </Paper>
             </Grid>
@@ -69,11 +69,11 @@ class Benchmarks extends React.Component {
               <Paper className={classes.root} elevation={1}>
                 <Grid item xs={12}>
                   <Typography variant="display2" gutterBottom style={{paddingBottom: 10}}>
-                    React
+                    Preact
                   </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                  <ReactBenchmark />
+                  <PreactBenchmark />
                 </Grid>
               </Paper>
             </Grid>

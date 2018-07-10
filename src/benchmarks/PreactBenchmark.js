@@ -162,10 +162,10 @@ class PreactBenchmark extends Preact.Component {
             Nodes #: <code>{nodes.length}</code>
           </p>
           <p>
-            Rendered time: <span ref={node => (this.timeToRenderRef = node)} />
+            Rendered times: <span ref={node => (this.timeToRenderRef = node)} />
           </p>
           <p>
-            Average rendered time: <code>{this.averageTime}ms</code>
+            Average rendered times: <code>{this.averageTime}ms</code>
           </p>
         </div>
         <div className="row benchmark-scratchpad">
